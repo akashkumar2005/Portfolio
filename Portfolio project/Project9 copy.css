@@ -1,0 +1,241 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+.navlist li{
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    position: relative;
+}
+.left-container , .right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-container{
+    background: #262525;
+    width: 70%;
+    padding-left: 3rem;
+    
+
+}
+.right-container{
+    background: linear-gradient( -45deg, #3877ff,#262525 70%);
+    width: 30%;
+
+}
+.icons .fa-brands{
+    color: #bbb;
+    font-size: 1.7rem;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+
+}
+.content{
+    margin-left: 4rem;
+
+}
+.content .intro{
+    font-size: 1.5rem;
+    color:#fff ;
+}
+.content .intro span {
+    color: #5db9ee;
+}
+.content h1{
+    font-size: 4rem;
+    color: #5db9ee;
+}
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+.btn-container button {
+    border: 0.1rem solid #5db9ee;
+    font-size:1.1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+button:nth-child(1) {
+    background: #5db9ee;
+    color: #262525;
+
+}
+button:nth-child(2) {
+    background: transparent;
+    color: #5db9ee;
+    margin-left: 2rem;
+
+}
+button:nth-child(1):hover {
+    background: transparent;
+    color: #5db9ee;
+
+
+}
+button:nth-child(2):hover {
+    background: #5db9ee;
+    color: #262525;
+    
+
+}
+.icons .fa-brands:hover {
+    cursor: pointer;
+    background: linear-gradient(#fff, #3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+
+}
+.circle:nth-child(1) {
+    background:#262525;
+    width: 38rem;
+}
+.circle:nth-child(2) {
+    
+    width: 30rem;
+    background: white;
+    background-image: url("WhatsApp Image 2024-05-11 at 23.48.52.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 0.8rem solid white;
+    box-shadow: 
+    0 0 1rem #fff,
+    inset 0 0 1rem #fff,
+     0 0 2rem #3877ff,
+     inset 0 0 2rem #3877ff,
+     0 0 4rem #3877ff,
+     inset 0 0 4rem #3877ff;
+    
+}
+.navlist li a::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 0.1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s;
+
+}
+.navlist li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+.information ul li{
+    list-style: url("");
+    flex-direction: column;
+}
+.skill-container{
+    background-color: #3877ff;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.skill-container h2{
+    margin-left: 55px;
+    color: #262525;
+
+}
+.item{
+    background-color: gray;
+}
+.item .hed{
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    list-style: square
+}
+.item ol li{
+    margin-left: 35px;
+    color: #fff;
+    list-style: square;
+    gap: 10px;
+}
+.Project{
+    background-color: #5db9ee;
+    
+}
+.Project ol h1{
+    margin-left: 500px;
+    font-size: 60px;
+}
+.Project ol li{
+    margin-left: 35px;
+    list-style: square;
+    font-size: 1.1rem;
+}
+.nation{
+    background-color: #262525;
+    color: #fff;
+    
+}
+.nation h1{
+    margin-left: 500px;
+    font-size: 60px;
+}
+.nation .ind{
+    margin-left: 55px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+    
+    
+    
+    
+
